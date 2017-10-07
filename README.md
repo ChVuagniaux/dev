@@ -5,6 +5,7 @@ Start a ready for dev docker image on your PCs with PHP 7, composer, PHPUnit & v
  
 `chvuagniaux/dev:php7.0` -  [The Dockerfile](php-7.0/Dockerfile)  
 `chvuagniaux/dev:php7.1` -  [The Dockerfile](php-7.1/Dockerfile)  
+`chvuagniaux/dev:php7.2` -  [The Dockerfile](php-7.2/Dockerfile)  
 
 ```
 docker run -it chvuagniaux/dev:php7.1
