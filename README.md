@@ -3,10 +3,10 @@
 ## PHP
 Start a ready for dev docker image on your PCs with PHP 7, composer, PHPUnit & vim  
  
-`chvuagniaux/dev:php-7` -  [The Dockerfile](php-7/Dockerfile)  
+`chvuagniaux/dev:php7.0` -  [The Dockerfile](php-7.0/Dockerfile)  
 
 ```
-docker run -it chvuagniaux/dev:php-7
+docker run -it chvuagniaux/dev:php7.0
 ```
 
 Need to run command with the user id 33 (www-data) ?
