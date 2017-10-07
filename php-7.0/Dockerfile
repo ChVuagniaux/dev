@@ -26,6 +26,7 @@ RUN \
     mv phpunit.phar /usr/local/bin/phpunit && \
 
     chmod +x /tmp/composer-install.sh && \
+    sync && \
     /tmp/composer-install.sh && \
     rm /tmp/composer-install.sh && \
 
