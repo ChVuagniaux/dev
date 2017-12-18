@@ -19,7 +19,7 @@ RUN \
 
     rm -fr /var/lib/apt/lists/* && \
 
-    curl -o /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar && \
+    curl -o /usr/local/bin/phpunit -L https://phar.phpunit.de/phpunit.phar && \
     chmod +x /usr/local/bin/phpunit  && \
 
     chmod +x /tmp/composer-install.sh && \
